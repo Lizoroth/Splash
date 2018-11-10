@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Prueba2</string>
+    <string name="descripcion">blabla</string>
+    <string name="hint_nombre">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="registro">Registrar Usuarios</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="repiteContraseña">Repita Contraseña</string>
+    <string name="abecedario">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚáéíóú0123456789</string>
+    <string name="abcedarioMail">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789@-_.</string>
+    <string name="busca">Busca</string>
+    <string name="modifica">Modificar</string>
+    <string name="elimina">Eliminar</string>
+    <string name="listar">Mostrar Usuario</string>
+    <string name="clima">Capturar Datos</string>
+    <string name="acerca">Acerca de</string>
+    <string name="Salir">Salir</string>
+    <string name="autores">Autores</string>
+    <string name="franco">Franco Tejo Flores</string>
+    <string name="cristian">Cristian Briceño Vega</string>
+    <string name="nombreappn">Nombre</string>
+    <string name="nombreapp">Prueba 2</string>
+    <string name="ramo">Aplicaciones Móviles</string>
+    <string name="version">Versión</string>
+    <string name="uno">1.0</string>
+    <string name="fecha">Fecha Lanzamiento</string>
+    <string name="lanzamiento">10/22/2018</string>
+    <string name="insti">Institución </string>
+    <string name="inacap">INACAP</string>
+    <string name="nomProfe">Profesor</string>
+    <string name="profesor">Jorge Cortés Gallardo</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="humedad">Humedad</string>
+
+</resources>

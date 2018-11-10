@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".Registro">
+
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorLetras"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:textColorHint="@color/colorLetras"
+        android:textColor="@color/colorLetras"
+        android:inputType="textPersonName"
+        android:hint="@string/apellido"
+        tools:ignore="Autofill,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorLetras"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:textColorHint="@color/colorLetras"
+        android:layout_marginTop="191dp"
+        android:textAllCaps="false"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        android:layout_marginStart="78dp"
+        android:drawableStart="@drawable/ic_action_mail"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="262dp"
+        android:ems="10"
+        android:hint="@string/contraseña"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorLetras"
+        android:drawableStart="@drawable/ic_action_pass"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/txtRepitePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtCorreo"
+        android:layout_alignRight="@+id/txtCorreo"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="@string/repiteContraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorLetras"
+        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:textColor="@color/colorLetras"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/guardar" />
+
+
+
+
+</RelativeLayout>

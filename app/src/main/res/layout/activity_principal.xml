@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Principal">
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="239dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:textAllCaps="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorLetras"
+        tools:ignore="Autofill,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorLetras"
+        android:textColorHint="@color/colorLetras"
+        android:layout_alignLeft="@+id/editText"
+        tools:ignore="Autofill,RtlHardcoded" />
+
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:background="@drawable/estilo_boton_inicio"
+        android:text="@string/login"
+        android:textColor="@color/colorLetras"
+        android:textSize="18dp"
+        tools:ignore="SpUsage" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="245dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="72dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+</RelativeLayout>

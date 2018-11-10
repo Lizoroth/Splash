@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Clima">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="245dp"
+        android:layout_height="255dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="98dp"
+        android:layout_height="108dp"
+        android:layout_alignStart="@+id/imgLogo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginBottom="112dp"
+        app:srcCompat="@drawable/clima"
+        android:layout_alignLeft="@+id/imgLogo"
+        android:layout_marginLeft="-12dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="87dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/temp"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/lblTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp"
+        android:text="@string/temperatura"
+        android:textColor="@color/colorLetras" />
+
+    <TextView
+        android:id="@+id/lblHum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/humedad"
+        android:textColor="@color/colorLetras" />
+
+    <TextView
+        android:id="@+id/lblTempVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imgLogo"
+        android:layout_alignBottom="@+id/lblTemp"
+        android:textColor="@color/colorLetras"
+        android:layout_alignRight="@+id/imgLogo" />
+
+
+    <TextView
+        android:id="@+id/lblHumVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblHum"
+        android:layout_alignEnd="@+id/imgLogo"
+        android:textColor="@color/colorLetras"
+        android:layout_alignRight="@+id/imgLogo" />
+
+    <TextView
+        android:id="@+id/txtfechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="3dp"
+        android:text="20/24/2018 - 14:02:26"
+        android:textColor="@color/colorLetras"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlCompat" />
+</RelativeLayout>
